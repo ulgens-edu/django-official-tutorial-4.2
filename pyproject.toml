@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "django-official-tutorial-4-2"
+version = "0.1.0"
+description = ""
+authors = ["Ülgen Sarıkavak <work@ulgens.me>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "django_official_tutorial_4"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Django = "4.2.7"
+django-debug-toolbar = "4.2.0"
+ipdb = "0.13.13"
+ipython = "8.17.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

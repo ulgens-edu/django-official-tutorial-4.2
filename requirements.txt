@@ -1,6 +1,0 @@
-Django==4.2.7
-django-debug-toolbar==4.2.0
-
-# Dev dependencies
-ipdb==0.13.13
-ipython==8.17.2
